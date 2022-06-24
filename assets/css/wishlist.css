@@ -1,0 +1,209 @@
+body {
+    /* background-color: #cecece; */
+    padding-top: 10px;
+    color: #6e6b7b;
+    background-color: #f8f8f8;
+}
+
+#header {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding-top: 10px;
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    /*margin: 10px */
+    ;
+    margin: 10px auto 30px;
+    position: fixed;
+    z-index: 10;
+    top: 10;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #7367f0;
+    /* text-shadow: 2px 2px 2px #f06767; */
+    margin: 10px;
+    display: inline;
+    /* font-weight: 700; */
+    /* transition-duration: 200ms;
+    transition-property: all; */
+}
+
+#header .h-left-list {
+    display: flex;
+    list-style: none;
+}
+
+#header .h-right-list {
+    display: flex;
+    list-style: none;
+}
+
+#header .h-right-list li {
+    margin: 0 10px;
+}
+
+#header .h-left-list li {
+    margin: 0 10px;
+}
+
+#header .h-right-list li img {
+    max-width: 30px;
+}
+
+#header .h-right-list li>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#header .h-right-list li>div {
+    font-size: 14px;
+    text-align: right;
+}
+
+#header .h-right-list li>div p {
+    margin-bottom: 0;
+}
+
+#header .h-left-list li:last-of-type i {
+    color: #ff9f43;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    padding-top: 10px;
+    box-shadow: 0 0 20px 20px #eee;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #6e6b7b !important;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #7367f0;
+    /* text-shadow: 2px 2px 2px #f06767; */
+    margin: 10px;
+    display: inline;
+    /* font-weight: 700; */
+    /* transition-duration: 200ms;
+    transition-property: all; */
+}
+
+.nav-links:hover {
+    transform: translateY(5);
+    -webkit-transform: translateY(5);
+    -moz-transform: translateY(5);
+    -ms-transform: translateY(5);
+    -o-transform: translateY(5);
+}
+
+.nav {
+    display: none !important;
+}
+
+#header:hover .nav {
+    display: flex !important;
+}
+
+#mainBody {
+    padding-top: 90px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 !important;
+    /* text-align: justify; */
+}
+
+#products>div {
+    text-align: center;
+    width: 23%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-bottom: 0 !important;
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+    transition-property: all;
+    transition-duration: 500ms;
+    opacity: .9;
+    padding: 0 !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* @keyframes identifier {
+    
+} */
+
+#products>div:hover {
+    box-shadow: rgb(34 41 47 / 25%) 0px 4px 25px 0px;
+    opacity: 1;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+#products>div .rembtn {
+    display: block;
+    background-color: #f6f6f6;
+    border: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #6e6b7b;
+}
+
+#products>div .cartbtn {
+    display: block;
+    background-color: #7367f0;
+    border: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    margin-bottom: 0!important;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* #products>div .wisbtn i {
+    color: #F00;
+} */
+
+.red {
+    color: #f00;
+}
+
+.price-rate {
+    display: flex;
+    justify-content: space-around;
+}
